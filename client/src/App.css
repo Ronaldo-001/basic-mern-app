@@ -1,0 +1,147 @@
+body {
+    background-color: #F0E9D6;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 15px;
+    border: 1px solid #eee6e6;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.navbar a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .dropbtn {
+    background-color: #a89797;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8b8585;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar .dropdown-content a:hover {
+    background-color: #444;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+.container {
+    margin: 40px;
+    padding: 20px;
+    background-color: #c2b8c0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #9f9898;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px; /* Add space between buttons */
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #777; /* Change color on click */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #333;
+    color: white;
+}
+
+.table-actions {
+    display: flex;
+    gap: 10px; /* Add space between action buttons */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #333;
+    color: white;
+}
+
+.table td {
+    background-color: #5581c8;
+    color: #e0e0e0;
+}
