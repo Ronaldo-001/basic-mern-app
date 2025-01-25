@@ -16,6 +16,10 @@ RUN cd server && npm install
 # Copy the rest of the application code
 COPY . .
 
+# Copy the .env files
+COPY server/.env ./server/.env
+COPY client/.env ./client/.env
+
 # Build the client
 RUN cd client && npm run build
 
